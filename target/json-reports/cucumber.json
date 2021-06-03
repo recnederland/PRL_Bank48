@@ -1,0 +1,50 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-03T17:12:52.516Z",
+        "line": 3,
+        "name": "User connect database",
+        "description": "",
+        "id": "database-test;user-connect-database",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4423000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user connect database and print all data",
+            "match": {
+              "location": "gmibank.stepdefinitions.DatabaseStepDefinition.user_connect_database_and_print_all_data()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      }
+    ],
+    "name": "Database Test",
+    "description": "",
+    "id": "database-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/database.feature",
+    "tags": [
+      {
+        "name": "@db",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
