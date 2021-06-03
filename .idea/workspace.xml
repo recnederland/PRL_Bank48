@@ -19,6 +19,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -35,13 +45,41 @@
   <component name="ProjectId" id="1tOsjnAzuiFQdvbNlxQgTIjXI5n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank\utilities" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GmiBankRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRL_Bank48" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gmibank.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gmibank.runners" />
+      <option name="MAIN_CLASS_NAME" value="gmibank.runners.GmiBankRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GmiBankRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="" />
@@ -62,5 +100,35 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="907" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622719486705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="907" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622719486705" />
+    <state x="948" y="275" key="FileChooserDialogImpl" timestamp="1622737611113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="948" y="275" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622737611113" />
+    <state width="1424" height="271" key="GridCell.Tab.0.bottom" timestamp="1622740369824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1424" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740369824" />
+    <state width="1424" height="271" key="GridCell.Tab.0.center" timestamp="1622740369823">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1424" height="271" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740369823" />
+    <state width="1424" height="271" key="GridCell.Tab.0.left" timestamp="1622740369823">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1424" height="271" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740369823" />
+    <state width="1424" height="271" key="GridCell.Tab.0.right" timestamp="1622740369823">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1424" height="271" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740369823" />
+    <state x="911" y="441" width="564" height="158" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1622737631306">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="911" y="441" width="564" height="158" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622737631306" />
   </component>
 </project>
