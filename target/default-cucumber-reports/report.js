@@ -19,6 +19,9 @@ formatter.scenario({
     }
   ]
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "user connect database and print all data",
   "keyword": "Given "

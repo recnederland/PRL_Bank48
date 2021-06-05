@@ -3,7 +3,18 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-06-03T17:12:52.516Z",
+        "start_timestamp": "2021-06-05T13:31:04.845Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
         "line": 3,
         "name": "User connect database",
         "description": "",
@@ -13,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4423000000,
+              "duration": 2487000000,
               "status": "passed"
             },
             "line": 4,
