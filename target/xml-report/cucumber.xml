@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.378">
-<testcase classname="Database Test" name="User connect database" time="4.519">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.604">
+<testcase classname="Database Test" name="User connect database" time="2.089">
 <system-out><![CDATA[Given user connect database and print all data..............................passed
 ]]></system-out>
 </testcase>
