@@ -22,8 +22,10 @@ public class ConfigurationReader {
     }
     //  ConfigurationReader.getProperty("username")  ---> manager2
     public static String getProperty(String key){
+
         return properties.getProperty(key);
     }
+
     public static void viewButtonHover(String email){
         //td[contains(text(),'newxx03@gmail.com')]//parent::td//following-sibling::td//div//a[@class='btn btn-info btn-sm']
         String beforeXpath="//td[contains(text(),'";

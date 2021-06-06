@@ -12,10 +12,11 @@ public class userInfoPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(id="account-menu")
-    public WebElement submit;
 
-    @FindBy(className="a.dropdown-item.active")
+    @FindBy(id="account-menu")
+    public WebElement userNameTopRightCorner;
+
+    @FindBy(partialLinkText="//span[contains(text(),\"User Info\")]")
     public WebElement userInfo;
 
     @FindBy(className = "//label[@for=\"firstName\"]")
@@ -46,7 +47,7 @@ public class userInfoPage {
 
     public void UserInfo(){
 
-        submit.click();
+        userNameTopRightCorner.click();
         userInfo.click();
 
 //        System.out.println("firstName.getText() = " + firstName.getText());
@@ -54,9 +55,5 @@ public class userInfoPage {
 //        System.out.println("email.getText() = " + email.getText());
 //        System.out.println("language.getText() = " + language.getText());
     }
-
-
-
-
 
 }

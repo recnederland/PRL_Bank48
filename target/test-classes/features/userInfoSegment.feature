@@ -13,4 +13,3 @@ Feature: US_006 USER INFO
     Then the user click on the User Info
     And the user navigate to User Settings page
 
-
