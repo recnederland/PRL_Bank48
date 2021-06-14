@@ -13,7 +13,95 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="" />
+    <list default="true" id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pages/CreateOrEditCustomerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pages/ManageCustomersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pages/RegistrationAndHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pages/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pages/US_015_MoneyAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pages/US_016_MoneyTransferPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pojos/Accounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pojos/Applicants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pojos/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pojos/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pojos/RCountries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pojos/RCountry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pojos/RUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pojos/States.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pojos/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/ApplicantApiStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/CountryApiStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/CustomerApiStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/DataBaseStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/LoginStepDefitnitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/PdfGeneratorStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/RegistrationStepDefitnitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/RegistrationsInvalid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/SearchNewApplicantStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/StatesApiStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/US015_MoneyAccountStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/US016_MoneyTransferStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/US_19_CreateNewAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/US_21_ApiCountry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/stepdefinitions/US_25_CountryEachCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/utilities/DatabaseUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/utilities/PDFGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/utilities/ReadTxt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/utilities/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/utilities/WriteToTxt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_015_AccountsView.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_030_PDFgenerator.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_19_AdminAccountCreate.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_20_CustomerApi.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_21_CountryApi.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_21_CountryCreateApi.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_22_24_27_StatesApi.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_23_ApplicantApi.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_25_CreateEachCountry.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Us_016_MoneyTransfer.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/pages/GmiBankPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/runners/GmiBankRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/ApiStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/DatabaseStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/GmiBankStepDefinition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/utilities/ConfigurationReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/utilities/DatabaseUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/utilities/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/utilities/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/utilities/ExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/utilities/WriteToTxt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/016_moneytransfer.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/gmibank.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/gmibank.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/gmibank.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/gmibank.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/pages/GmiBankPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/runners/GmiBankRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/ApiStepDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/DatabaseStepDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/GmiBankStepDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/ConfigurationReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/DatabaseUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/Driver$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/Driver$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/ExcelUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +118,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -50,14 +138,98 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/gmibank" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gmibank.pages" />
+      <recent name="com.gmibank.stepdefinitions" />
+      <recent name="gmibank.pages" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank\utilities" />
+      <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\com\gmibank" />
+      <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\com\gmibank\pages" />
+      <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\com\gmibank\stepdefinitions" />
+      <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\com\gmibank\utilities" />
+      <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GmiBankRunner (1)">
+    <configuration name="Scenario: Kullanici tum hesap tiplerini ve bakiyelerini  gorebilir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US_015_AccountsView.feature" />
+      <option name="GLUE" value="com.gmibank.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="PRL_Bank48" />
+      <option name="NAME_FILTER" value="^Kullanici tum hesap tiplerini ve bakiyelerini  gorebilir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Kullanici tum hesap tiplerini ve bakiyelerini  gorebilir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Kullanici tum hesap tiplerini ve bakiyelerini  gorebilir" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User does every step to transfer money between user's accounts (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Us_016_MoneyTransfer.feature" />
+      <option name="GLUE" value="com.gmibank.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="PRL_Bank48" />
+      <option name="NAME_FILTER" value="^User does every step to transfer money between user\'s accounts$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User does every step to transfer money between user\'s accounts$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User does every step to transfer money between user's accounts" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User does every step to transfer money between user's accounts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US_16_MoneyTransfer.feature" />
+      <option name="GLUE" value="com.gmibank.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="PRL_Bank48" />
+      <option name="NAME_FILTER" value="^User does every step to transfer money between user\'s accounts$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User does every step to transfer money between user\'s accounts$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User does every step to transfer money between user's accounts" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmiBankRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PRL_Bank48" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmibank.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gmibank.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.gmibank.runners.GmiBankRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GmiBankRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRL_Bank48" />
       <extension name="coverage">
@@ -75,6 +247,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GmiBankRunner (1)" />
+        <item itemvalue="Cucumber Java.Scenario: User does every step to transfer money between user's accounts (1)" />
+        <item itemvalue="Cucumber Java.Scenario: Kullanici tum hesap tiplerini ve bakiyelerini  gorebilir" />
+        <item itemvalue="Cucumber Java.Scenario: User does every step to transfer money between user's accounts" />
         <item itemvalue="JUnit.GmiBankRunner" />
       </list>
     </recent_temporary>
@@ -100,35 +276,51 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="907" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622719486705">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="907" y="-759" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623490974449">
+      <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
+    <state x="907" y="-759" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623490974449" />
     <state x="907" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622719486705" />
-    <state x="948" y="275" key="FileChooserDialogImpl" timestamp="1622737611113">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="640" y="-825" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1623489346609">
+      <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
+    <state x="640" y="-825" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623489346609" />
+    <state x="175" y="-632" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1623159501958">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="175" y="-632" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623159501958" />
+    <state x="948" y="-805" key="FileChooserDialogImpl" timestamp="1623411551730">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="948" y="-805" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623411551730" />
     <state x="948" y="275" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622737611113" />
-    <state width="1424" height="271" key="GridCell.Tab.0.bottom" timestamp="1622740602902">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1623706105060">
+      <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
+    <state width="1877" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623706105060" />
     <state width="1424" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
-    <state width="1424" height="271" key="GridCell.Tab.0.center" timestamp="1622740602902">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1623706105060">
+      <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
+    <state width="1877" height="350" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623706105060" />
     <state width="1424" height="271" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
-    <state width="1424" height="271" key="GridCell.Tab.0.left" timestamp="1622740602902">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1623706105060">
+      <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
+    <state width="1877" height="350" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623706105060" />
     <state width="1424" height="271" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
-    <state width="1424" height="271" key="GridCell.Tab.0.right" timestamp="1622740602902">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1623706105060">
+      <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
+    <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623706105060" />
     <state width="1424" height="271" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
-    <state x="911" y="441" width="564" height="158" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1622737631306">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="911" y="-639" width="564" height="158" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1623491173959">
+      <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
+    <state x="911" y="-639" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623491173959" />
     <state x="911" y="441" width="564" height="158" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622737631306" />
   </component>
 </project>

@@ -1,32 +1,86 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/database.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Us_016_MoneyTransfer.feature");
 formatter.feature({
-  "name": "Database Test",
+  "name": "US016 Money Transfer",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@db"
+      "name": "@MoneyTransfer"
     }
   ]
 });
 formatter.scenario({
-  "name": "User connect database",
+  "name": "User does every step to transfer money between user\u0027s accounts",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@db"
+      "name": "@MoneyTransfer"
     }
   ]
 });
 formatter.step({
-  "name": "user connect database and print all data",
+  "name": "User on the \"gmibank_url\"",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "gmibank.stepdefinitions.DatabaseStepDefinition.user_connect_database_and_print_all_data()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
+});
+formatter.step({
+  "name": "User navigates to sign in page",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "User provide a valid username \"username_transfer\"",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "User provide a valid password \"password_transfer\"",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "User click on the sign in button",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "User navigates to Transfer Money Page",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "User does the money transfer",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "User validates that User s money transferred successfully",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 });

@@ -3,42 +3,84 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-06-03T17:12:52.516Z",
+        "start_timestamp": "2021-06-14T21:28:44.342Z",
         "line": 3,
-        "name": "User connect database",
+        "name": "User does every step to transfer money between user\u0027s accounts",
         "description": "",
-        "id": "database-test;user-connect-database",
+        "id": "us015-show-account;user-does-every-step-to-transfer-money-between-user-s-accounts",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4423000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 4,
-            "name": "user connect database and print all data",
-            "match": {
-              "location": "gmibank.stepdefinitions.DatabaseStepDefinition.user_connect_database_and_print_all_data()"
-            },
+            "name": "User is on the login page",
+            "match": {},
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User provide a valid username",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User provide a valid password",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User click on the sign in button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User navigates My Accounts Page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User gets the info about Users accounts balance",
+            "match": {},
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@db"
+            "name": "@showAccount"
           }
         ]
       }
     ],
-    "name": "Database Test",
+    "name": "US015 Show Account",
     "description": "",
-    "id": "database-test",
+    "id": "us015-show-account",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/database.feature",
+    "uri": "file:src/test/resources/features/US_015_AccountsView.feature",
     "tags": [
       {
-        "name": "@db",
+        "name": "@showAccount",
         "type": "Tag",
         "location": {
           "line": 1,
