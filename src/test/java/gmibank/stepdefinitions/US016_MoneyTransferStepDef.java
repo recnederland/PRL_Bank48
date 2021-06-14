@@ -3,6 +3,8 @@ package gmibank.stepdefinitions;
 //import com.gmibank.pages.US_016_MoneyTransferPage;
 //import com.gmibank.utilities.ConfigurationReader;
 //import com.gmibank.utilities.Driver;
+import com.gmibank.utilities.ConfigurationReader;
+import com.gmibank.utilities.Driver;
 import gmibank.utilities.Driver;
 import gmibank.pages.US_016_MoneyTransferPage;
 import gmibank.utilities.ConfigurationReader;
