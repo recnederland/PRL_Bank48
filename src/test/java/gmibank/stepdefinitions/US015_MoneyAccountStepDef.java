@@ -2,9 +2,10 @@ package gmibank.stepdefinitions;
 
 //import com.gmibank.pages.US_015_MoneyAccountPage;
 //import com.gmibank.utilities.ConfigurationReader;
-import gmibank.utilities.Driver;
+
 import gmibank.pages.US_015_MoneyAccountPage;
 import gmibank.utilities.ConfigurationReader;
+import gmibank.utilities.Driver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 

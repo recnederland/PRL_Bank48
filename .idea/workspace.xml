@@ -13,7 +13,39 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="" />
+    <list default="true" id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/runners/GmiBankRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/ApiStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/DatabaseStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/GmiBankStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/utilities/DatabaseUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/utilities/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/utilities/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/utilities/WriteToTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US015_MoneyAccountStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US015_MoneyAccountStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US016_MoneyTransferStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US016_MoneyTransferStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US_16MoneyTrabsferEbubekir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_001_Registration.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_002_RegistrationInvalid.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_003_PasswordRestrictions.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_004 Login_Valid_Credentials.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_005 Login_Invalid_Credentials.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_009 Search_New_Applicant.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_015_AccountsView.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US_015_AccountsView.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_030_PDFgenerator.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_19_AdminAccountCreate.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_20_CustomerApi.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_21_CountryApi.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_21_CountryCreateApi.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_22_24_27_StatesApi.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_23_ApplicantApi.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_25_CreateEachCountry.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Us_016_MoneyTransfer.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Us_016_MoneyTransfer.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/gmibank.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/gmibank.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +62,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -53,8 +85,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gmibank.runners" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank\stepdefinitions" />
+      <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank" />
       <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\resources\features" />
       <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank\pages" />
       <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank\utilities" />
@@ -131,6 +167,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="907" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622719486705" />
+    <state x="645" y="-636" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1623714787570">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="645" y="-636" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623714787570" />
     <state x="948" y="275" key="FileChooserDialogImpl" timestamp="1622737611113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
