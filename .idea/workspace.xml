@@ -14,6 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pages/BasePage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pages/CreateOrEditCustomerPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/gmibank/pages/LoginPage.java" afterDir="false" />
@@ -101,6 +102,9 @@
       <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/Driver.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/utilities/ExcelUtil.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+>>>>>>> main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +151,7 @@
       <recent name="gmibank.pages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\com\gmibank" />
       <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\com\gmibank\pages" />
       <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\com\gmibank\stepdefinitions" />
@@ -199,6 +204,19 @@
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US_16_MoneyTransfer.feature" />
       <option name="GLUE" value="com.gmibank.stepdefinitions" />
+=======
+      <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank\stepdefinitions" />
+      <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\resources\features" />
+      <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank\pages" />
+      <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank\utilities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: User does every step to transfer money between user's accounts">
+    <configuration name="Scenario: User does every step to transfer money between user's accounts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Us_016_MoneyTransfer.feature" />
+      <option name="GLUE" value="gmibank.stepdefinitions" />
+>>>>>>> main
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="PRL_Bank48" />
       <option name="NAME_FILTER" value="^User does every step to transfer money between user\'s accounts$" />
@@ -215,6 +233,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="GmiBankRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRL_Bank48" />
       <extension name="coverage">
@@ -230,6 +249,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+>>>>>>> main
     <configuration name="GmiBankRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRL_Bank48" />
       <extension name="coverage">
@@ -247,9 +268,12 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JUnit.GmiBankRunner (1)" />
         <item itemvalue="Cucumber Java.Scenario: User does every step to transfer money between user's accounts (1)" />
         <item itemvalue="Cucumber Java.Scenario: Kullanici tum hesap tiplerini ve bakiyelerini  gorebilir" />
+=======
+>>>>>>> main
         <item itemvalue="Cucumber Java.Scenario: User does every step to transfer money between user's accounts" />
         <item itemvalue="JUnit.GmiBankRunner" />
       </list>
@@ -297,6 +321,7 @@
     </state>
     <state x="948" y="-805" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623411551730" />
     <state x="948" y="275" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622737611113" />
+<<<<<<< HEAD
     <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1623706105060">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
@@ -316,6 +341,27 @@
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
     <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623706105060" />
+=======
+    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1623710880670">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623710880670" />
+    <state width="1424" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
+    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1623710880669">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="350" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623710880669" />
+    <state width="1424" height="271" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
+    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1623710880669">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="350" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623710880669" />
+    <state width="1424" height="271" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
+    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1623710880670">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623710880670" />
+>>>>>>> main
     <state width="1424" height="271" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
     <state x="911" y="-639" width="564" height="158" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1623491173959">
       <screen x="0" y="-1080" width="1920" height="1040" />
