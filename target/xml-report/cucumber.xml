@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.378">
-<testcase classname="Database Test" name="User connect database" time="4.519">
-<system-out><![CDATA[Given user connect database and print all data..............................passed
-]]></system-out>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="1" time="0.548">
+<testcase classname="US015 Show Account" name="User does every step to transfer money between user's accounts" time="0.092">
+<skipped><![CDATA[Given User is on the login page.............................................undefined
+When User provide a valid username..........................................undefined
+Then User provide a valid password..........................................undefined
+And User click on the sign in button........................................undefined
+And User navigates My Accounts Page.........................................undefined
+Then User gets the info about Users accounts balance........................undefined
+]]></skipped>
 </testcase>
 </testsuite>
