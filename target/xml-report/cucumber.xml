@@ -1,7 +1,69 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.378">
-<testcase classname="Database Test" name="User connect database" time="4.519">
-<system-out><![CDATA[Given user connect database and print all data..............................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="90.121">
+<testcase classname="Login Page" name="TC_0001 There should be a valid username and password validating the success message to login" time="25.089">
+<system-out><![CDATA[Given User goes to home page "homepage_url".................................passed
+And User clicks login icon..................................................passed
+And User clicks Sign in button..............................................passed
+When User enters valid credantials username "team48admin" and password "Team48admin." on the pop-up page.passed
+And User clicks signin button on the pop-up page............................passed
+Then User should login......................................................passed
 ]]></system-out>
+</testcase>
+<testcase classname="Login Page" name="TC_0001 There should be a valid username and password validating the success message to login 2" time="14.454">
+<system-out><![CDATA[Given User goes to home page "homepage_url".................................passed
+And User clicks login icon..................................................passed
+And User clicks Sign in button..............................................passed
+When User enters valid credantials username "team48manager" and password "Team48manager." on the pop-up page.passed
+And User clicks signin button on the pop-up page............................passed
+Then User should login......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Page" name="TC_0001 There should be a valid username and password validating the success message to login 3" time="12.354">
+<system-out><![CDATA[Given User goes to home page "homepage_url".................................passed
+And User clicks login icon..................................................passed
+And User clicks Sign in button..............................................passed
+When User enters valid credantials username "team48employee" and password "Team48employee." on the pop-up page.passed
+And User clicks signin button on the pop-up page............................passed
+Then User should login......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Page" name="TC_0001 There should be a valid username and password validating the success message to login 4" time="36.867">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()='My Operations']&quot;}&#10;  (Session info: chrome=91.0.4472.101)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-75UTRP2', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\efe\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:49472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: aa10ae31ecdd7f547ccc09ddbb779172&#10;*** Element info: {Using=xpath, value=//span[text()='My Operations']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given User goes to home page "homepage_url".................................passed
+And User clicks login icon..................................................passed
+And User clicks Sign in button..............................................passed
+When User enters valid credantials username "team48customer" and password "Team48customer." on the pop-up page.passed
+And User clicks signin button on the pop-up page............................passed
+Then User should login......................................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='My Operations']"}
+  (Session info: chrome=91.0.4472.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-75UTRP2', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.101, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\efe\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:49472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa10ae31ecdd7f547ccc09ddbb779172
+*** Element info: {Using=xpath, value=//span[text()='My Operations']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at gmibank.stepdefinitions.LoginPageStepDefinition.userShouldLogin(LoginPageStepDefinition.java:53)
+	at ✽.User should login(file:///C:/Users/efe/IdeaProjects/PRL_Bank48/src/test/resources/features/004_loginpage.feature:14)
+]]></failure>
 </testcase>
 </testsuite>

@@ -3,7 +3,7 @@ package gmibank.stepdefinitions;
 import gmibank.utilities.Driver;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import org.junit.After;
+import io.cucumber.java.After;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -12,6 +12,7 @@ public class Hooks {
     @Before
     public void setUp() {
         //System.out.println("setUp Çalıştı.");
+        //Driver.getDriver().manage().window().maximize();
     }
 
     @After
