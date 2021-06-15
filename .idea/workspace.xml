@@ -13,39 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/runners/GmiBankRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/ApiStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/DatabaseStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/GmiBankStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/utilities/DatabaseUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/utilities/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/utilities/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/utilities/WriteToTxt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US015_MoneyAccountStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US015_MoneyAccountStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US016_MoneyTransferStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US016_MoneyTransferStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US_16MoneyTrabsferEbubekir.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_001_Registration.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_002_RegistrationInvalid.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_003_PasswordRestrictions.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_004 Login_Valid_Credentials.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_005 Login_Invalid_Credentials.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_009 Search_New_Applicant.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_015_AccountsView.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US_015_AccountsView.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_030_PDFgenerator.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_19_AdminAccountCreate.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_20_CustomerApi.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_21_CountryApi.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_21_CountryCreateApi.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_22_24_27_StatesApi.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_23_ApplicantApi.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_25_CreateEachCountry.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Us_016_MoneyTransfer.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Us_016_MoneyTransfer.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/gmibank.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/gmibank.feature" afterDir="false" />
-    </list>
+    <list default="true" id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,25 +143,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="948" y="275" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622737611113" />
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1623711761297">
+    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1623715132420">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623711761297" />
+    <state width="1877" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623715132420" />
     <state width="1424" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
-    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1623711761297">
+    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1623715132419">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623711761297" />
+    <state width="1877" height="350" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623715132419" />
     <state width="1424" height="271" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
-    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1623711761296">
+    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1623715132419">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623711761296" />
+    <state width="1877" height="350" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623715132419" />
     <state width="1424" height="271" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
-    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1623711761297">
+    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1623715132420">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623711761297" />
+    <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623715132420" />
     <state width="1424" height="271" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
     <state x="911" y="441" width="564" height="158" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1622737631306">
       <screen x="0" y="0" width="1920" height="1040" />
