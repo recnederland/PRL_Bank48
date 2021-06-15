@@ -50,16 +50,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="gmibank.runners" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\resources\features" />
       <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank\stepdefinitions" />
       <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank" />
-      <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\resources\features" />
       <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank\pages" />
       <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank\utilities" />
     </key>
