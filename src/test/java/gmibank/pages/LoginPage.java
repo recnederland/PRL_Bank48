@@ -32,6 +32,9 @@ public class LoginPage {
     @FindBy(xpath = "//span[text()='Cancel']")
     public WebElement cancelButton ;
 
+    @FindBy(xpath = "//div[contains(@class, 'alert alert-danger')]")
+    public WebElement loginErrormsg ;
+
 
 
 

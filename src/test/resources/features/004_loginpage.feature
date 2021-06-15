@@ -4,7 +4,7 @@ Feature: Login Page
     Given User goes to home page "homepage_url"
     And User clicks login icon
 
-  @wip
+
   Scenario Outline:  TC_0001 There should be a valid username and password validating the success message to login
 
 
@@ -21,10 +21,10 @@ Feature: Login Page
       | team48customer | Team48customer. |
 
 
-
+  @wip
   Scenario Outline: US_0004 TC_0005 There should be an option to cancel login
     And User clicks Sign in button
-    When User enters  valid and invalid credantials username "<username1>" and password "<password1>" on the pop-up page
+    When User enters   credantials username "<username1>" and password "<password1>" on the pop-up page
     And User clicks cancel button
     Then User should return to home page
 
@@ -32,7 +32,15 @@ Feature: Login Page
       | username1      | password1       |
       |                |                 |
       | vvv48manageefe | Team48manager.  |
-      | gggdfgfg       | Team48employee. |
-      | team48customer | Team48customer. |
 
 
+  Scenario Outline: US_005 TC_001, TC_002, TC_003, User cannot login with invalid username and password validating the error message
+    And User clicks Sign in button
+    When User enters invalid  credantials "<usernameinvalid>" and "<passwordinvalid>" on the pop-up page
+    And User clicks signin button on the pop-up page
+    Then Shouldt not be able to login and should be seen error msg
+
+    Examples:
+      | usernameinvalid | passwordinvalid |
+      | hbgfdh          | 458gtgrfgfg     |
+      |                 |                 |
