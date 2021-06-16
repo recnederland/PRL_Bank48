@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.378">
-<testcase classname="Database Test" name="User connect database" time="4.519">
-<system-out><![CDATA[Given user connect database and print all data..............................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.39">
+<testcase classname="US012 An Employee can manage Customer" name="TC003_There should be an Edit button where all customer information can be populated" time="10.197">
+<system-out><![CDATA[Given Employee at the homepage "gmibank_url"................................passed
+And clicks the human icon at the right top..................................passed
+And chooses sign in option..................................................passed
+And gives "username_employee" to username textbox...........................passed
+And gives "password_employee" to password textbox...........................passed
+And clicks the sign in button...............................................passed
+And employee sign in successfully...........................................passed
+And clicks the my operations area...........................................passed
+And chooses manage customer option..........................................passed
+Then kullanici ekranda edit butonlarindan birini gorur......................passed
 ]]></system-out>
 </testcase>
 </testsuite>

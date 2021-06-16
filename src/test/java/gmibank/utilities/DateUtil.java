@@ -24,4 +24,5 @@ public class DateUtil {
         String today = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date());
         return today;
     }
+
 }

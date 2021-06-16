@@ -14,7 +14,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/aadeneme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/aadeneme.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pages/US011_DateOfCustomerCreationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pages/US012_ManageCustomerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pages/US014_DateOfAccountCreationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US011_DateOfCustomerCreationStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US012_ManageCustomerStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US014_DateOfAccountCreationStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US011_DateOfCustomerCreation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US012_ManageCustomer.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US014_DateOfAccountCreation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/default-cucumber-reports/embedded0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/US011_DateOfCustomerCreation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/US012_ManageCustomer.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/US014_DateOfAccountCreation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank/pages/US011_DateOfCustomerCreationPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank/pages/US012_ManageCustomerPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank/pages/US014_DateOfAccountCreationPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/Hooks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/US011_DateOfCustomerCreationStepDefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/US012_ManageCustomerStepDefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/US014_DateOfAccountCreationStepDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/runners/GmiBankRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/runners/GmiBankRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/GmiBankStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/GmiBankStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/utilities/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/utilities/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/016_moneytransfer.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/aadeneme.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/runners/GmiBankRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank/runners/GmiBankRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +86,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -61,7 +95,87 @@
       <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank\utilities" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GmiBankRunner">
+    <configuration name="Scenario: TC001_All customers should show up on manage customers module populating the account information of the customer" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US012_ManageCustomer.feature" />
+      <option name="GLUE" value="gmibank.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="PRL_Bank48" />
+      <option name="NAME_FILTER" value="^TC001_All customers should show up on manage customers module populating the account information of the customer$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC001_All customers should show up on manage customers module populating the account information of the customer$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC001_All customers should show up on manage customers module populating the account information of the customer" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: There user can choose an account created on manage accounts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US011_DateOfCustomerCreation.feature" />
+      <option name="GLUE" value="gmibank.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="PRL_Bank48" />
+      <option name="NAME_FILTER" value="^There user can choose an account created on manage accounts$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^There user can choose an account created on manage accounts$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: There user can choose an account created on manage accounts" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User can choose a user from the registration and it cannot be blank" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US011_DateOfCustomerCreation.feature" />
+      <option name="GLUE" value="gmibank.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="PRL_Bank48" />
+      <option name="NAME_FILTER" value="^User can choose a user from the registration and it cannot be blank$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can choose a user from the registration and it cannot be blank$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can choose a user from the registration and it cannot be blank" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User can select Zelle Enrolled optionally and save it" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US011_DateOfCustomerCreation.feature" />
+      <option name="GLUE" value="gmibank.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="PRL_Bank48" />
+      <option name="NAME_FILTER" value="^User can select Zelle Enrolled optionally and save it$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can select Zelle Enrolled optionally and save it$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can select Zelle Enrolled optionally and save it" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GmiBankRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PRL_Bank48" />
       <extension name="coverage">
@@ -80,6 +194,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GmiBankRunner" />
+        <item itemvalue="Cucumber Java.Scenario: TC001_All customers should show up on manage customers module populating the account information of the customer" />
+        <item itemvalue="Cucumber Java.Scenario: User can select Zelle Enrolled optionally and save it" />
+        <item itemvalue="Cucumber Java.Scenario: User can choose a user from the registration and it cannot be blank" />
+        <item itemvalue="Cucumber Java.Scenario: There user can choose an account created on manage accounts" />
       </list>
     </recent_temporary>
   </component>
