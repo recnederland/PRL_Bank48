@@ -12,7 +12,7 @@ import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
 
-public class US016_MoneyTransferStepDef {
+public class US_16_MoneyTransferStepDef {
 
     US_016_MoneyTransferPage transfer = new US_016_MoneyTransferPage();
 

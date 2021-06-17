@@ -9,7 +9,7 @@ import gmibank.utilities.Driver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 
-public class US015_MoneyAccountStepDef {
+public class US_15_MoneyAccountStepDef {
 
     US_015_MoneyAccountPage account = new US_015_MoneyAccountPage();
 
