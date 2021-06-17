@@ -13,7 +13,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="" />
+    <list default="true" id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pages/US_06_UserInfoSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pages/US_09_GmiBankUs09Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pages/US_10_GmibankUSpage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pages/US_11_DateOfCustomerCreationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pages/US_12_ManageCustomerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/pages/US_14_DateOfAccountCreationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/LoginPageStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US_06_UserInfoSegmentStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US_09_StepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US_10_GmiStepdefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US_11_DateOfCustomerCreationStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US_12_ManageCustomerStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US_14_DateOfAccountCreationStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_04_LoginPage.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_06_UserInfoSegment.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_09_CreateNewCustomer.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_10_CreateNewCustomer10.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_11_DateOFCustomerCreateStep.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_12_ManageCustomerStep.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_14_DateOFAccountStep.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US015_MoneyAccountStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US_15_MoneyAccountStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US016_MoneyTransferStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US_16_MoneyTransferStepDef.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,9 +177,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="907" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622719486705">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="907" y="-759" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623948177254">
+      <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
+    <state x="907" y="-759" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623948177254" />
     <state x="907" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622719486705" />
     <state x="645" y="-636" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1623716569495">
       <screen x="0" y="-1080" width="1920" height="1040" />
