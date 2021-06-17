@@ -8,6 +8,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
@@ -105,7 +106,7 @@ public class US_11_DateOfCustomerCreationStepDefinition {
 
         us011_dateOfCustomerCreationPage.customerDate.click();
         Driver.wait(1);
-        us011_dateOfCustomerCreationPage.customerDate.sendKeys("13.06.2021"+Keys.TAB+"00:00");
+        us011_dateOfCustomerCreationPage.customerDate.sendKeys("13.06.2021"+ Keys.TAB+"00:00");
         Driver.wait(1);
 
     }
@@ -144,7 +145,7 @@ public class US_11_DateOfCustomerCreationStepDefinition {
         Select select =new Select(us011_dateOfCustomerCreationPage.chooseUser);
 
         try{
-            WebElement option = Driver.selectRandomTextFromDropdown(select);
+            //WebElement option = Driver.selectRandomTextFromDropdown(select);
         }
         catch(Exception ex)
         {
@@ -167,7 +168,7 @@ public class US_11_DateOfCustomerCreationStepDefinition {
         Select select = new Select(us011_dateOfCustomerCreationPage.chooseAccount);
         Driver.wait(2);
         try {
-            option = Driver.selectRandomTextFromDropdown(select);
+            //option = Driver.selectRandomTextFromDropdown(select);
         }
         catch(Exception ex){
             // Assert.fail("account choice failed");
