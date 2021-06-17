@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="1" time="0.548">
-<testcase classname="US015 Show Account" name="User does every step to transfer money between user's accounts" time="0.092">
-<skipped><![CDATA[Given User is on the login page.............................................undefined
-When User provide a valid username..........................................undefined
-Then User provide a valid password..........................................undefined
-And User click on the sign in button........................................undefined
-And User navigates My Accounts Page.........................................undefined
-Then User gets the info about Users accounts balance........................undefined
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="1" time="53.521">
+<testcase classname="US015 Account Validation" name="User can see all account types and balances" time="52.055">
+<skipped><![CDATA[Given user go to "https://gmibank-qa-environment.com/"......................passed
+And DUser navigates to sign in page.........................................passed
+Then DUser provide a valid username.........................................passed
+And DUser provide a valid password..........................................passed
+Then User click on the sign in button.......................................passed
+And DUser navigates My Accounts Page........................................passed
+Then DUser gets the info about Users accounts balance.......................passed
+And DUser finds and validates the Account Type webelement on the page.......undefined
+Then DUser finds and validates the Balance webelement on the page...........undefined
 ]]></skipped>
 </testcase>
 </testsuite>

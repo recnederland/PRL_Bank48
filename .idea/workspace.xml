@@ -13,7 +13,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="" />
+    <list default="true" id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/runners/GmiBankRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/runners/GmiBankRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US015_MoneyAccountStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US015_MoneyAccountStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US016_MoneyTransferStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US016_MoneyTransferStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_015_AccountsView.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US_015_AccountsView.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports.html/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports.html/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports.html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports.html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports.html/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports.html/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports.html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports.html/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports.html/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports.html/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US_015_AccountsView.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US_015_AccountsView.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/runners/GmiBankRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank/runners/GmiBankRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/US016_MoneyTransferStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/US016_MoneyTransferStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +80,27 @@
       <recent name="C:\Users\sam s\IdeaProjects\PRL_Bank48\src\test\java\gmibank\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User does every step to transfer money between user's accounts">
+  <component name="RunManager" selected="Cucumber Java.Scenario: User can see all account types and balances">
+    <configuration name="Scenario: User can see all account types and balances" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/US_015_AccountsView.feature" />
+      <option name="GLUE" value="gmibank.stepdefinitions com.gmibank.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="PRL_Bank48" />
+      <option name="NAME_FILTER" value="^User can see all account types and balances$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can see all account types and balances$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User can see all account types and balances" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: User does every step to transfer money between user's accounts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Us_016_MoneyTransfer.feature" />
@@ -102,8 +138,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: User does every step to transfer money between user's accounts" />
+        <item itemvalue="Cucumber Java.Scenario: User can see all account types and balances" />
         <item itemvalue="JUnit.GmiBankRunner" />
+        <item itemvalue="Cucumber Java.Scenario: User does every step to transfer money between user's accounts" />
       </list>
     </recent_temporary>
   </component>
@@ -135,33 +172,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="907" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622719486705" />
-    <state x="645" y="-636" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1623714787570">
+    <state x="645" y="-636" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1623716569495">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="645" y="-636" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623714787570" />
+    <state x="645" y="-636" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623716569495" />
     <state x="948" y="275" key="FileChooserDialogImpl" timestamp="1622737611113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="948" y="275" key="FileChooserDialogImpl/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622737611113" />
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1623715132420">
+    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1623878746005">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623715132420" />
+    <state width="1877" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623878746005" />
     <state width="1424" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
-    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1623715132419">
+    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1623878746005">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623715132419" />
+    <state width="1877" height="350" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623878746005" />
     <state width="1424" height="271" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
-    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1623715132419">
+    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1623878746004">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623715132419" />
+    <state width="1877" height="350" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623878746004" />
     <state width="1424" height="271" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
-    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1623715132420">
+    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1623878746005">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623715132420" />
+    <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1623878746005" />
     <state width="1424" height="271" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1622740602902" />
     <state x="911" y="441" width="564" height="158" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1622737631306">
       <screen x="0" y="0" width="1920" height="1040" />

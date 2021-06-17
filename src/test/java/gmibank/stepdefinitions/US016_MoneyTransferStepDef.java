@@ -78,7 +78,7 @@ public class US016_MoneyTransferStepDef {
 
         Driver.wait(2);
         Select select1 = new Select(transfer.fromDropDown);
-        select1.selectByIndex(1);
+        select1.selectByIndex(2);
         Driver.wait(1);
         Select select2 = new Select(transfer.toDropDown);
         select2.selectByIndex(1);
