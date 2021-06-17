@@ -13,23 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/runners/GmiBankRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/runners/GmiBankRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US015_MoneyAccountStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US015_MoneyAccountStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US016_MoneyTransferStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank/stepdefinitions/US016_MoneyTransferStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/US_015_AccountsView.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US_015_AccountsView.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports.html/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports.html/formatter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports.html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports.html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports.html/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports.html/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports.html/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports.html/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports.html/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports.html/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/US_015_AccountsView.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/US_015_AccountsView.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/runners/GmiBankRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank/runners/GmiBankRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/US016_MoneyTransferStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank/stepdefinitions/US016_MoneyTransferStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
-    </list>
+    <list default="true" id="37d46472-eade-4e73-acc4-96666d3b798f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
