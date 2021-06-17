@@ -72,3 +72,14 @@ public class US015_MoneyAccountStepDef {
 //        Driver.wait(1);
 //    }
 }
+//    @Then("DUser finds and validates the Account Type webelement on the page")
+//    public void duser_finds_and_validates_the_Account_Type_webelement_on_the_page() {
+//        // Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+//    }
+//
+//    @Then("DUser finds and validates the Balance webelement on the page")
+//    public void duser_finds_and_validates_the_Balance_webelement_on_the_page() {
+//        // Write code here that turns the phrase above into concrete actions
+//        throw new io.cucumber.java.PendingException();
+//    }

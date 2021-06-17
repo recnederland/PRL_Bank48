@@ -3,47 +3,121 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-06-14T21:28:44.342Z",
+        "start_timestamp": "2021-06-16T21:21:59.531Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "gmibank.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
         "line": 3,
-        "name": "User does every step to transfer money between user\u0027s accounts",
+        "name": "User can see all account types and balances",
         "description": "",
-        "id": "us015-show-account;user-does-every-step-to-transfer-money-between-user-s-accounts",
+        "id": "us015-account-validation;user-can-see-all-account-types-and-balances",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 40452000000,
+              "status": "passed"
             },
             "line": 4,
-            "name": "User is on the login page",
-            "match": {},
+            "name": "user go to \"https://gmibank-qa-environment.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://gmibank-qa-environment.com/\"",
+                  "offset": 11
+                }
+              ],
+              "location": "gmibank.stepdefinitions.GmiBankStepDefinition.user_go_to(java.lang.String)"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 2384000000,
+              "status": "passed"
             },
             "line": 5,
-            "name": "User provide a valid username",
-            "match": {},
-            "keyword": "When "
+            "name": "DUser navigates to sign in page",
+            "match": {
+              "location": "gmibank.stepdefinitions.US015_MoneyAccountStepDef.duserNavigatesToSignInPage()"
+            },
+            "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1101000000,
+              "status": "passed"
             },
             "line": 6,
-            "name": "User provide a valid password",
-            "match": {},
+            "name": "DUser provide a valid username",
+            "match": {
+              "location": "gmibank.stepdefinitions.US015_MoneyAccountStepDef.duserProvideAValidUsername()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1174000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "DUser provide a valid password",
+            "match": {
+              "location": "gmibank.stepdefinitions.US015_MoneyAccountStepDef.duserProvideAValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1154000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on the sign in button",
+            "match": {
+              "location": "gmibank.stepdefinitions.US016_MoneyTransferStepDef.duserClickOnTheSignInButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3268000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "DUser navigates My Accounts Page",
+            "match": {
+              "location": "gmibank.stepdefinitions.US015_MoneyAccountStepDef.duserNavigatesMyAccountsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2111000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "DUser gets the info about Users accounts balance",
+            "match": {
+              "location": "gmibank.stepdefinitions.US015_MoneyAccountStepDef.duserGetsTheInfoAboutUsersAccountsBalance()"
+            },
             "keyword": "Then "
           },
           {
             "result": {
               "status": "undefined"
             },
-            "line": 7,
-            "name": "User click on the sign in button",
+            "line": 11,
+            "name": "DUser finds and validates the Account Type webelement on the page",
             "match": {},
             "keyword": "And "
           },
@@ -51,17 +125,8 @@
             "result": {
               "status": "undefined"
             },
-            "line": 8,
-            "name": "User navigates My Accounts Page",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 9,
-            "name": "User gets the info about Users accounts balance",
+            "line": 12,
+            "name": "DUser finds and validates the Balance webelement on the page",
             "match": {},
             "keyword": "Then "
           }
@@ -73,9 +138,9 @@
         ]
       }
     ],
-    "name": "US015 Show Account",
+    "name": "US015 Account Validation",
     "description": "",
-    "id": "us015-show-account",
+    "id": "us015-account-validation",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/US_015_AccountsView.feature",
     "tags": [
