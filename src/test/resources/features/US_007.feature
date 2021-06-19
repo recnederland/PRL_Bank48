@@ -1,6 +1,6 @@
 
 @TC_007
-  Feature: TC_007 System should not allow to make updates with invalid credentials
+  Feature: US_007 System should not allow to make updates with invalid credentials
     Background:
     Scenario: User go to GmiBank home page
       Given user go to "https://gmibank-qa-environment.com/"
@@ -12,7 +12,7 @@
       Then user click on the User Info Settings Sign
       And the user navigate to User Settings page
 
-    Scenario Outline: TC_001 Email id cannot contain just digits or chars without "@" sign or "." extension
+    Scenario Outline: US_007 TC_001 Email id cannot contain just digits or chars without "@" sign or "." extension
       When user enter new "<email_address>"
       Then email address can not contain @ sign or . extension in proper way
 
@@ -25,4 +25,8 @@
       | team48@hotmailcom.     |
       | team48@gmail.          |
       | team48admin@gmail.com  |
+
+      Scenario: US_007 TC_002 There should not be any option of any other language other than English or Turkish
+        Given there should be only two language options on the language drop down
+        And languages can not be other than "English" and "Türkçe"
 

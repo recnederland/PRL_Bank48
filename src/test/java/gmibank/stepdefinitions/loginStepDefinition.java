@@ -1,14 +1,12 @@
 package gmibank.stepdefinitions;
 
-import gmibank.pages.loginPage;
-import gmibank.pages.loginPage;
+import gmibank.pages.LoginPage;
 import gmibank.utilities.Driver;
 import io.cucumber.java.en.*;
-import org.junit.Assert;
 
 public class loginStepDefinition {
 
-    loginPage loginPage = new loginPage();
+    LoginPage loginPage = new LoginPage();
 
     @When("User enter valid username and password")
     public void user_enter_valid_username_and_password() {

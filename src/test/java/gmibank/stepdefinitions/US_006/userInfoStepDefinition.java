@@ -1,24 +1,19 @@
-package gmibank.stepdefinitions;
+package gmibank.stepdefinitions.US_006;
 
-import gmibank.pages.userInfoPage;
-import gmibank.utilities.ConfigurationReader;
+import gmibank.pages.US_06_UserInfoSegment;
 import gmibank.utilities.Driver;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.asserts.SoftAssert;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class userInfoStepDefinition {
 
-    userInfoPage uinfo = new userInfoPage();
+    US_06_UserInfoSegment uinfo = new US_06_UserInfoSegment();
+
     String newFirstName;
     String newLastName;
     String newEmail;
